@@ -1,0 +1,10 @@
+git config --global user.name "jeongminkim"
+git config --global user.email "jjeongmin98"
+git config --list
+
+git init
+git remote -v ???? ??
+git add .
+git status
+git commit -m "first commit"
+git push origin master
