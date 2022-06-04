@@ -1,0 +1,28 @@
+docker top [container]
+
+//docker 
+docker inspect [container]
+
+//docker
+docker run 
+
+//make container and exec container
+docker logs
+//docker container log check
+
+docker logs -f
+
+//docker container logs continue check
+docker exec -if
+
+//docker exec
+//-i : interface
+//-f : terminal?
+
+docker stress 
+//ex1
+ docker run -m 100m --memory-swap 100m stress:latest stress --vm 1 --vm-bytes 150m -t 5s
+메모리를 과부화
+
+htop
+//interface with top 
