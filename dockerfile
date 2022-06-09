@@ -1,6 +1,11 @@
-FROM ubuntu:18.04
-LABEL maintainer="Jeongmin Kim<eodjr05@naver.com>"
-#install libcap
+FROM debian
+MAINTAINER Jeongmin
+COPY . /
 RUN apt-get update \
-    && apt-get install libcap-dev; exit 0
+    && apt-get install -y libcap-dev;
+RUN apt-get install -y gcc
+
 EXPOSE 80
+EXPOSE 8080
+
+

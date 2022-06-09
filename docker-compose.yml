@@ -1,0 +1,8 @@
+version: '3'
+services:
+        local-db:
+                images: library/mysql:5.7
+                contanier_name: local-db
+                restart: alwats
+                prots:
+                        :q!
